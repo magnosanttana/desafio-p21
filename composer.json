@@ -1,0 +1,25 @@
+{
+    "name": "magnosanttana/msfw",
+    "authors": [
+        {
+            "name": "Magno Santtana",
+            "email": "magnosanttana@gmail.com"
+        }
+    ],
+    "require": {
+        "respect/validation": "^1.1",
+        "phpoffice/phpspreadsheet": "^1.11",
+        "phpmailer/phpmailer": "^6.1",
+        "vlucas/phpdotenv": "^4.1",
+        "pimple/pimple": "^3.3"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MSS\\": "src",
+            "App\\": "app"
+        }
+    }
+}
